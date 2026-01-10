@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zakia Pezhman | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h2 class="logo">Zakia Pezhman</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="themeToggle" class="theme-btn">🌙</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <img src="profile.png" alt="Profile Photo" class="profile-pic" />
+    <h1>Hi, I'm <span>Zakia Pezhman</span></h1>
+    <p>Full-Stack and Game developer</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+     I am a self-taught developer passionate about data science, machine learning, full-stack and game development. I enjoy building projects and learning new tools.
+
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section light">
+  <div class="skills-card">
+    <h2>Skills</h2>
+
+    <h3>Programming Languages</h3>
+    <div class="skills" id="languages"></div>
+
+    <h3>Web Technologies</h3>
+    <div class="skills" id="web"></div>
+
+    <h3>Tools & Platforms</h3>
+    <div class="skills" id="tools"></div>
+  </div>
+</section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="filter">
+      <button onclick="filterProjects('all')">All</button>
+      <button onclick="filterProjects('web')">Web</button>
+      <button onclick="filterProjects('database')">Database</button>
+      <button onclick="filterProjects('game')">Game</button>
+      <button onclick="filterProjects('generative')">Generative AI</button>
+    </div>
+
+    <div class="projects" id="projects-list"></div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section light">
+     <div class="contact-card">
+    <h2>Contact</h2>
+    <p>Email: yourname@email.com</p>
+    <p><a href="https://linkedin.com/in/zakiapezhman" target="_blank">LinkedIn </a></p>
+    <p> <a href="https://github.com/Zakia" target="_blank">GitHub</a></p>
+  </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© <span id="year"></span> Zakia Pezhman. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
