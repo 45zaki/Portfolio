@@ -28,7 +28,7 @@ const projects = [
   {
     title: "Website Practice",
     description: "Personal portfolio built with HTML, CSS, and JavaScript, with another project linked below.",
-    link: "https://www.shecodes.io/cohorts/2092/projects/2371381?_gl=1*wktegm*_gcl_au*MjAxOTgzOTcxNy4xNzY2ODAxMDY0LjE0MjgyNzc4MTUuMTc2ODAxMzkxMS4xNzY4MDE0MTk2"
+    link: "web-projects.html"
   },
   {
     title: "Database Practice",
